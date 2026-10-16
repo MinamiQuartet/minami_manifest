@@ -3,7 +3,7 @@
   
   <!-- Remote -->
   <remote name="minami" fetch="https://github.com/MinamiQuartet" />
-  <remote name="lineg"  fetch="https://github.com/LineageOS" revision="lineage-24.0"" />
+  <remote name="lineg"  fetch="https://github.com/LineageOS" revision="lineage-24.0" />
   
   <!-- Device source -->
   <project path="device/xiaomi/earth" name="android_device_xiaomi_earth" remote="minami" revision="lineage-24.0" />

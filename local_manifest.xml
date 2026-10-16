@@ -16,6 +16,6 @@
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="lineg" />
 
   <!-- Keys -->
-  <project path="vendor/lineage-priv/keys" name="minami-sign" revision="keys" />
+  <project path="vendor/lineage-priv/keys" name="minami-sign" remote="minami" revision="keys" />
 
 </manifest>

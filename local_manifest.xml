@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <!-- Remote -->
+  <remote name="minami" fetch="https://github.com/MinamiQuartet" />
+  <remote name="lineg"  fetch="https://github.com/LineageOS" revision="lineage-24.0"" />
+  
+  <!-- Device source -->
+  <project path="device/xiaomi/earth" name="android_device_xiaomi_earth" remote="minami" revision="lineage-24.0" />
+  <project path="kernel/xiaomi/earth" name="android_kernel_xiaomi_earth" remote="minami" revision="lineage-24.0" clone-depth="1" />
+  <project path="vendor/xiaomi/earth" name="vendor_xiaomi_earth" remote="minami" revision="lineage-24.0-ims" clone-depth="1" />
+
+  <!-- Hardware -->
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineg" />
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="lineg" />
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="lineg" />
+
+  <!-- Keys -->
+  <project path="vendor/lineage-priv/keys" name="minami-sign" revision="keys" />
+
+</manifest>
